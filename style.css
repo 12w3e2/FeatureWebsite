@@ -1,0 +1,85 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+
+}
+body {
+    position:relative;
+    background-size:100%;
+    background-repeat: no-repeat;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    
+
+}
+.cursor {
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    z-index: 11;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image1,.image2,.image3,.image4 {
+    height: 350px;
+    width: 270px;
+    margin-right: 10px;
+    box-shadow: 0 0 5px 1px grey;
+    border-radius: 15px;
+    position: relative;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transform:rotateY(0deg)
+
+}
+.image1:hover {
+    height: 370px;
+    width: 290px; 
+}
+.image2:hover {
+    height: 370px;
+    width: 290px; 
+}
+.image3:hover {
+    height: 370px;
+    width: 290px; 
+}
+.image4:hover {
+    height: 370px;
+    width: 290px; 
+}
+.one,.two,.three,.four {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+
+}
+h1 {
+    text-align: center;
+    font-family: 'Croissant One', cursive;
+}
+i {
+    font-size: 74px;
+    color: magenta;
+    position: absolute;
+    transform: scale(0);
+    opacity: 0.75;
+    z-index: 10;
+    left: 40%;
+    top: 40%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    
+}
